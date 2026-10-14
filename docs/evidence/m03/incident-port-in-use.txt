@@ -1,0 +1,55 @@
+# Ringkasan insiden: Address already in use (port 8000)
+Jumlah baris error asli: 90
+
+## Kejadian kunci (start, gagal, stop)
+Oct 14 12:32:17 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:32:22 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:32:25 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:32:31 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:32:34 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:32:39 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:32:42 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:32:47 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:32:50 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:32:55 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:32:58 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:04 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:07 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:12 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:15 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:20 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:23 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:28 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:31 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:37 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:40 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:45 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:48 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:33:53 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:33:56 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:01 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:04 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:10 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:13 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:18 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:21 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:26 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:29 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:34 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:37 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:34:43 cc-m03-25832072008 systemd[1]: cc-m03.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 12:34:45 cc-m03-25832072008 systemd[1]: Stopped cc-m03.service - PTI 2802 M03 Flask Application.
+Oct 14 12:40:42 cc-m03-25832072008 systemd[1]: Started cc-m03.service - PTI 2802 M03 Flask Application.
+
+## Contoh error (5 baris pertama dan 5 terakhir)
+Oct 14 12:32:17 cc-m03-25832072008 gunicorn[745134]: [2026-10-14 12:32:17 +0700] [745134] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:32:18 cc-m03-25832072008 gunicorn[745134]: [2026-10-14 12:32:18 +0700] [745134] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:32:19 cc-m03-25832072008 gunicorn[745134]: [2026-10-14 12:32:19 +0700] [745134] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:32:20 cc-m03-25832072008 gunicorn[745134]: [2026-10-14 12:32:20 +0700] [745134] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:32:21 cc-m03-25832072008 gunicorn[745134]: [2026-10-14 12:32:21 +0700] [745134] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+...
+Oct 14 12:34:38 cc-m03-25832072008 gunicorn[745259]: [2026-10-14 12:34:38 +0700] [745259] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:34:39 cc-m03-25832072008 gunicorn[745259]: [2026-10-14 12:34:39 +0700] [745259] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:34:40 cc-m03-25832072008 gunicorn[745259]: [2026-10-14 12:34:40 +0700] [745259] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:34:41 cc-m03-25832072008 gunicorn[745259]: [2026-10-14 12:34:41 +0700] [745259] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+Oct 14 12:34:42 cc-m03-25832072008 gunicorn[745259]: [2026-10-14 12:34:42 +0700] [745259] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
